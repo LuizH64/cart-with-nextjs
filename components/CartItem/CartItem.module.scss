@@ -1,0 +1,39 @@
+$gray: rgb(182, 179, 174);
+
+.ItemWrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ImageWrapper {
+    position: relative;
+    border: 1px solid $gray;
+    text-align: center;
+    flex-basis: 40%;
+    min-height: 120px;
+    max-height: 200px;
+    aspect-ratio: 1/1;
+}
+
+.ItemData {
+    flex-basis: 60%;
+
+    p {
+        margin: 0;
+        margin-bottom: 5px;
+        line-height: 1.1rem;
+        font-size: clamp(0.8rem, 0.8vw, 4rem);
+
+        &:first-of-type {
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+    }
+}
+
+.Price {
+    color: $gray;
+    font-size: clamp(0.8rem, 0.6vw, 4rem) !important;
+    text-decoration: line-through;
+}
