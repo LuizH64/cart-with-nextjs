@@ -39,7 +39,7 @@
       "sellerChain": [
         "1"
       ],
-      "imageUrl": "http://codeby.vteximg.com.br/arquivos/ids/159959-800-1029/truffon-meio-amargo.png?v=636930938547630000",
+      "imageUrl": "https://codeby.vteximg.com.br/arquivos/ids/159959-800-1029/truffon-meio-amargo.png?v=636930938547630000",
       "detailUrl": "/trufa-bendito-cacau-55-/p",
       "components": [],
       "bundleItems": [],
@@ -98,7 +98,7 @@
       "sellerChain": [
         "1"
       ],
-      "imageUrl": "http://codeby.vteximg.com.br/arquivos/ids/159939-800-1029/trufa-morango-30g.png?v=636916431597070000",
+      "imageUrl": "https://codeby.vteximg.com.br/arquivos/ids/159939-800-1029/trufa-morango-30g.png?v=636916431597070000",
       "detailUrl": "/trufa-morango/p",
       "components": [],
       "bundleItems": [],
@@ -157,7 +157,7 @@
       "sellerChain": [
         "1"
       ],
-      "imageUrl": "http://codeby.vteximg.com.br/arquivos/ids/159942-800-1029/trufa-tradicional.png?v=636916452526400000",
+      "imageUrl": "https://codeby.vteximg.com.br/arquivos/ids/159942-800-1029/trufa-tradicional.png?v=636916452526400000",
       "detailUrl": "/trufa-tradicional/p",
       "components": [],
       "bundleItems": [],
@@ -201,7 +201,7 @@
         "productId": "317",
         "refId": null,
         "ean": "223311",
-        "imageUrl": "http://codeby.vteximg.com.br/arquivos/ids/159959-800-1029/truffon-meio-amargo.png?v=636930938547630000",
+        "imageUrl": "https://codeby.vteximg.com.br/arquivos/ids/159959-800-1029/truffon-meio-amargo.png?v=636930938547630000",
         "detailUrl": "/trufa-bendito-cacau-55-/p",
         "assemblyOptions": []
       },
@@ -213,7 +213,7 @@
         "productId": "314",
         "refId": null,
         "ean": "0123456789123",
-        "imageUrl": "http://codeby.vteximg.com.br/arquivos/ids/159939-800-1029/trufa-morango-30g.png?v=636916431597070000",
+        "imageUrl": "https://codeby.vteximg.com.br/arquivos/ids/159939-800-1029/trufa-morango-30g.png?v=636916431597070000",
         "detailUrl": "/trufa-morango/p",
         "assemblyOptions": []
       },
@@ -225,7 +225,7 @@
         "productId": "312",
         "refId": null,
         "ean": "223311",
-        "imageUrl": "http://codeby.vteximg.com.br/arquivos/ids/159942-800-1029/trufa-tradicional.png?v=636916452526400000",
+        "imageUrl": "https://codeby.vteximg.com.br/arquivos/ids/159942-800-1029/trufa-tradicional.png?v=636916452526400000",
         "detailUrl": "/trufa-tradicional/p",
         "assemblyOptions": []
       }
