@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: '/cart-with-nextjs',
-    assetPrefix: '/cart-with-nextjs',
+    basePath: process.env.NEXT_PUBLIC_BASE_PATH,
+    assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH,
     reactStrictMode: true,
     images: {
         loader: 'akamai',
@@ -10,8 +10,8 @@ const nextConfig = {
     async redirects() {
         return [
             {
-                source: '/',
-                destination: '/cart-with-nextjs/cart/small',
+                source: process.env.NEXT_PUBLIC_BASE_PATH || '/',
+                destination: `${process.env.NEXT_PUBLIC_BASE_PATH}/cart/small`,
                 permanent: true,
             },
         ]
