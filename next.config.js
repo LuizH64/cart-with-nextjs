@@ -10,8 +10,8 @@ const nextConfig = {
     async redirects() {
         return [
             {
-                source: process.env.NEXT_PUBLIC_BASE_PATH || '/',
-                destination: `${process.env.NEXT_PUBLIC_BASE_PATH}/cart/small`,
+                source: '/',
+                destination: '/cart/small',
                 permanent: true,
             },
         ]
