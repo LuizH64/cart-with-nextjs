@@ -2,8 +2,8 @@
 const nextConfig = {
     reactStrictMode: true,
     images: {
-        domains: ['codeby.vteximg.com.br'],
-        formats: ['image/avif', 'image/webp'],
+        loader: 'akamai',
+        path: '',
     },
     async redirects() {
         return [
