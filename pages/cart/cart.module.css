@@ -13,12 +13,12 @@
 .ItemsWrapper {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  padding: 0 10px;
+  gap: 30px;
+  padding: 30px;
 }
 
 .Pricing {
-  margin: 15px 0;
+  margin-bottom: 15px;
   padding: 15px 5%;
   border: 1px solid #b6b3af;
   border-left: 0;
@@ -61,6 +61,6 @@
     margin: 2vh 28vw 5vh 28vw;
     padding-bottom: 15px;
     border-radius: 20px;
-    box-shadow: 0px 0px 15px -1px #000000;
+    box-shadow: 0px 0px 30px 0 #000000b2;
   }
 }
