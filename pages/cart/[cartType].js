@@ -81,15 +81,9 @@ const getStaticProps = async ({ params }) => {
 
 const getStaticPaths = () => {
     const paths = [
-        {
-            params: {
-                cartType: 'small'
-            }
-        }, {
-            params: {
-                cartType: 'big'
-            }
-        }];
+        { params: { cartType: 'small' } },
+        { params: { cartType: 'big' } }
+    ];
 
     return {
         paths,
