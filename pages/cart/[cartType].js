@@ -16,7 +16,7 @@ import capitalize from '../../utils/capitalize';
 const Cart = ({ items, value }) => {
     const router = useRouter();
     const { cartType } = router.query;
-    const otherCartType = cartType === "small" ? "big" : "small"
+    const otherCartType = cartType === "small" ? "big" : "small";
 
     const onClickHandler = () => {
         alert(`Redirecting to ${otherCartType} cart`);
