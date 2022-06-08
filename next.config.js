@@ -11,7 +11,7 @@ const nextConfig = {
         return [
             {
                 source: '/',
-                destination: '/cart/small',
+                destination: '/cart-with-nextjs/cart/small',
                 permanent: true,
             },
         ]
