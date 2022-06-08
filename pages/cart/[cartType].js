@@ -1,6 +1,8 @@
 // Dependencies
 import { useRouter } from 'next/router';
 import Head from 'next/head';
+import fsPromises from 'fs/promises';
+import path from 'path';
 
 // Components
 import CartItem from '../../components/CartItem/CartItem';
@@ -67,8 +69,9 @@ const Cart = ({ items, value }) => {
 }
 
 const getStaticProps = async ({ params }) => {
-    const res = await fetch(`http://localhost:3000/${params.cartType}.json`);
-    const data = await res.json();
+    const filePath = path.join(process.cwd(), `/public/${params.cartType}.json`);
+    const jsonData = await fsPromises.readFile(filePath);
+    const data = JSON.parse(jsonData);
 
     return {
         props: {
