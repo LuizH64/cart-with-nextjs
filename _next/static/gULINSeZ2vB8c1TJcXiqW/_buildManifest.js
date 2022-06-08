@@ -1,1 +1,0 @@
-self.__BUILD_MANIFEST={__rewrites:{beforeFiles:[],afterFiles:[],fallback:[]},"/_error":["static/chunks/pages/_error-0a004b8b8498208d.js"],"/cart/[cartType]":["static/css/a5f28694977d0cec.css","static/chunks/pages/cart/[cartType]-c099cd884286bc07.js"],sortedPages:["/_app","/_error","/cart/[cartType]"]},self.__BUILD_MANIFEST_CB&&self.__BUILD_MANIFEST_CB();
