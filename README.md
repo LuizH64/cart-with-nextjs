@@ -6,12 +6,11 @@
 
 ### Funcionalidades propostas
 
-Assim que o projeto é acessado, o usuário é redirecionado para a rota "/cart/small", em que é demonstrado
-um carrinho com poucos itens, a totalidade do preço destes itens será menor que R$ 10,00. Neste caso,
-não é mostrado o aviso de frete grátis. Um botão de finalizar compra está disponível no final da página,
-ao ser clicado, o usuário será redirecionado para a rota "/cart/big", em que é demonstrado um exemplo com 
-um carrinho mais cheio, no caso o valor total da compra passa de R$ 10,00, fazendo com que o aviso de frete
-grátis apareça.
+Na rota "/cart/small" é demonstrado um carrinho com poucos itens, a totalidade dos preços destes itens 
+será menor que R$ 10,00. Neste caso, não é mostrado o aviso de frete grátis. Um botão de finalizar compra está 
+disponível no final da página, ao ser clicado, o usuário será redirecionado para a rota "/cart/big", em que é 
+demonstrado um exemplo com um carrinho mais cheio, no caso o valor total da compra passa de R$ 10,00, fazendo 
+com que o aviso de frete grátis apareça.
 
 
 ### Métodos utilizados para o desenvolvimento
