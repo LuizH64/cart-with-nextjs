@@ -13,6 +13,7 @@ const nextConfig = {
                 source: '/',
                 destination: '/cart/small',
                 basePath: false,
+                permanent: true
             },
         ]
     },
